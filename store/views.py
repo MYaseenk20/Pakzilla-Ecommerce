@@ -159,7 +159,7 @@ class Checkout(View):
             order.placeorder();
         request.session['cart']={}
 
-        return redirect('cart')
+        return redirect('orders')
 
 class OrderView(View):
 
