@@ -130,3 +130,7 @@ STATICFILES_DIRS=[
 ]
 
 
+try: 
+    from.local_setting import*
+except ImportError:
+    pass
