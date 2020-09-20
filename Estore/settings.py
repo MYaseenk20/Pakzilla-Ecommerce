@@ -24,7 +24,7 @@ SECRET_KEY = 'tx&1ixdqiy!=xe+=a688&0$t8z@p4l0mgq2k!g628_pv(id@dn'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['pakzilla2.herokuapp.com']
 
 
 # Application definition
