@@ -165,7 +165,7 @@ class OrderView(View):
 
     def get(self,request):
         customer=request.session.get('customer')
-        orders=Order.objects.filter(customer=customer)
+        orders=Order.objects.order_by('-date').filter(customer=customer)
         context={'orders':orders}
         return render(request,'store/order.html',context)
 
