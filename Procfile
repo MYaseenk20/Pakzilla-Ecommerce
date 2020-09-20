@@ -1,0 +1,1 @@
+web: gunicorn Estore.wsgi
